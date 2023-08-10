@@ -1,0 +1,335 @@
+﻿@font-face {
+    font-family: PressStart2P-Regular;
+    src: url('font/PressStart2P-Regular.ttf') format('truetype');
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+        min-width: 1200px;
+    }
+}
+
+.text-input {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    border: 3px solid rebeccapurple;
+    outline: none;
+    line-height: 1.5rem;
+    font-family: 'Cascadia Code';
+    font-size: 1.2em;
+    padding: .7rem 1rem;
+    color: rebeccapurple;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 350px;
+    background: rgb(117 156 143);
+}
+
+header {
+    background: rgba(8 57 40);
+    height: 80px;
+    font-family: PressStart2P-Regular;
+}
+
+header *{
+    color: #ffd800;
+}
+
+
+header .logo{
+    float: left;
+    height: inherit;
+    margin-left: 10px;
+    
+}
+
+header .page-name {
+    color: #ff7f7f;
+    margin: 20px;
+    padding: 10px;
+    float: left;
+    height: inherit;
+    text-align: center;
+    font-size: 30px;
+}
+
+header .logo img{
+    height: 82px;
+}
+
+.nav {
+    margin-right: 50px;
+    position: relative;
+    display: inline-block;
+    z-index: 9999;
+}
+
+header ul{
+    display: block;
+    float: right;
+    margin: 0px;
+    padding: 12px;
+    list-style: none;
+}
+
+header ul li{
+    display: block;
+    float: left;
+    position: relative;
+}
+
+header ul li ul{
+    display: block;
+    position: absolute;
+}
+
+header ul li a{
+    display: block;
+    padding: 21px;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content li {
+    display: block;
+    width: 180px;
+}
+
+.dropdown-content li a {
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+header ul li a:hover {
+    border-radius: 20px;
+    background-color: #ffd800;
+    color: #ff7f7f;
+    transition: 0s;
+}
+
+.dropdown-content .logout{
+    color: red;
+}
+
+
+/* hakkımda sayfası için eklediklerim */
+
+#typing-effect {
+    text-align: left;
+    box-shadow: 10px 10px rgb(97 97 97);
+    width: 80%;
+    margin: 10px auto;
+    margin-top: 40px;
+    padding: 20px;
+    background: #fff;
+    font-family: PressStart2P-Regular;
+    color: rgb(255 127 127);
+    border-radius: 10px;
+}
+
+#typing-effect::after {
+    content: '|';
+    color: black;
+    display: inline-block;
+    animation: cursor-blink 0.8s infinite;
+}
+
+@keyframes cursor-blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.hs {
+    display: flex;
+    width: 80%;
+    margin: 10px auto;
+    margin-top: 40px;
+}
+
+.hakkimdayazi, .sosyal {
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    background: #63bda5;
+    border: 4px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(97 97 97);
+}
+
+.hakkimdayazi p {
+    padding: 15px;
+    background: #d9ffe9;
+    box-shadow: 5px 5px rgb(97 97 97);
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 4px;
+}
+
+.hakkimdayazi .hakkimda-title {
+    font-size: 30px;
+    padding: 4px;
+    width: 40%;
+    text-align: center;
+    background: #d9ffe9;
+    box-shadow: 5px 5px rgb(97 97 97);
+    border-radius: 10px;
+}
+
+.sosyal .sosyal-title {
+    font-size: 30px;
+    padding: 4px;
+    text-align: center;
+    background: #d9ffe9;
+    box-shadow: 5px 5px rgb(97 97 97);
+    border-radius: 10px;
+}
+
+.sosyal .sosyal-list li{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+    
+}
+
+.sosyal .sosyal-list a {
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: none;
+}
+
+.sosyal .sosyal-list li .linkedln {
+    display: inline-block;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, #0077b5, #0094d2);
+    background-size: 200% auto;
+    background-position: 0 100%;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-position 0.3s, color 0.3s;
+}
+
+.sosyal .sosyal-list li .linkedln:hover {
+    background-position: 100% 0;
+    color: #000;
+}
+
+.sosyal .sosyal-list li .instagram {
+    display: inline-block;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+    background-size: 200% auto;
+    background-position: 0 100%;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-position 0.3s;
+}
+
+.sosyal .sosyal-list li .instagram:hover {
+    background-position: 100% 0;
+    color: black;
+}
+
+.sosyal .sosyal-list li .github {
+    display: inline-block;
+    padding: 10px 20px;
+    background-image: linear-gradient(45deg, #24292e, #444d56);
+    background-size: 200% auto;
+    background-position: 0 100%;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-position 0.3s, color 0.3s;
+}
+
+.sosyal .sosyal-list li .github:hover {
+    background-position: 100% 0;
+    color: #000;
+}
+
+.cont-me {
+    margin: 10px auto;
+    margin-top: 50px;
+    width: 50%;
+    background: #63bda5;
+    background-image: url(../images/beemohakkimda.jpg);
+    background-size: cover;
+    height: 800px;
+    padding: 20px;
+    border: 4px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(97 97 97);
+}
+
+.cont-icerik {
+    overflow: hidden;
+    background: rgb(197 227 191);
+    margin: 30px;
+    margin-left: 70px;
+    padding: 10px;
+    width: 80%;
+}
+
+.cont-me h2 {
+    font-size: 30px;
+    padding: 4px;
+    width: 40%;
+    text-align: center;
+    background: #d9ffe9;
+    box-shadow: 5px 5px rgb(97 97 97);
+    border-radius: 10px;
+}
+
+#txtEmail, #txtMessage {
+    margin-bottom: 10px;
+}
+
+#btnSubmit {
+    padding: 6px;
+    color: white;
+    background: rgb(255 105 186);
+    font-size: 20px;
+    transition: 0.3s;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+#btnSubmit:hover {
+    background: rgb(255 140 49);
+    color: blue;
+    box-shadow: 5px 5px rgb(97 97 97);
+}

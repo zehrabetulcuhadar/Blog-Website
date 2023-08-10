@@ -1,0 +1,329 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MyBlog
+</name>
+</assembly>
+<members>
+<member name="T:MyBlog.My.MyWebExtension">
+ <summary>
+ My Namespace for Web projelerinde kullanılabilen özellikleri tanımlamak için kullanılan modül.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:MyBlog.My.MyWebExtension.Computer">
+ <summary>
+ Ana bilgisayarla ilgili bilgiler döndürür.
+ </summary>
+</member>
+<member name="P:MyBlog.My.MyWebExtension.User">
+ <summary>
+ Geçerli Web kullanıcısıyla ilgili bilgiler döndürür.
+ </summary>
+</member>
+<member name="P:MyBlog.My.MyWebExtension.Request">
+ <summary>
+ Request nesnesi döndürür.
+ </summary>
+</member>
+<member name="P:MyBlog.My.MyWebExtension.Response">
+ <summary>
+ Response nesnesi döndürür.
+ </summary>
+</member>
+<member name="P:MyBlog.My.MyWebExtension.Log">
+ <summary>
+ Asp günlüğü nesnesi döndürür.
+ </summary>
+</member>
+<member name="F:MyBlog.admin._form1">
+<summary>
+form1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.ai._form1">
+<summary>
+form1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.ai._btnMore">
+<summary>
+btnMore denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.create._form1">
+<summary>
+form1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.create._body">
+<summary>
+body denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.create._SubmitButton">
+<summary>
+SubmitButton denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.hakkimda._form1">
+<summary>
+form1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.hakkimda._txtEmail">
+<summary>
+txtEmail denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.hakkimda._lblError">
+<summary>
+lblError denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.hakkimda._txtMessage">
+<summary>
+txtMessage denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.hakkimda._btnSubmit">
+<summary>
+btnSubmit denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.hakkimda._lblMessage">
+<summary>
+lblMessage denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.login._form1">
+<summary>
+form1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.login._txtUsername">
+<summary>
+txtUsername denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.login._txtPassword">
+<summary>
+txtPassword denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.login._btnLogin">
+<summary>
+btnLogin denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.WebForm1._form1">
+<summary>
+form1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.WebForm1._txtSearch">
+<summary>
+txtSearch denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.WebForm1._btnSearch">
+<summary>
+btnSearch denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.WebForm1._lblResult">
+<summary>
+lblResult denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.WebForm1._txtEmail">
+<summary>
+txtEmail denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.WebForm1._lblError">
+<summary>
+lblError denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.WebForm1._txtMessage">
+<summary>
+txtMessage denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.WebForm1._btnSubmit">
+<summary>
+btnSubmit denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.WebForm1._lblMessage">
+<summary>
+lblMessage denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.robotic._form1">
+<summary>
+form1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.robotic._btnMore">
+<summary>
+btnMore denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.roboticicerik._form1">
+<summary>
+form1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.software._form1">
+<summary>
+form1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.software._btnMore">
+<summary>
+btnMore denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.WebForm2._form1">
+<summary>
+form1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+<member name="F:MyBlog.softwareicerik._form1">
+<summary>
+form1 denetimi.
+</summary>
+<remarks>
+Otomatik üretilmiş alan.
+Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+</remarks>
+</member>
+</members>
+</doc>

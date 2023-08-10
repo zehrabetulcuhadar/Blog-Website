@@ -1,0 +1,186 @@
+﻿@font-face {
+	font-family: PressStart2P-Regular;
+	src: url('font/PressStart2P-Regular.ttf') format('truetype');
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+        min-width: 1200px;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background: rgb(152,120,120,0.10);
+}
+
+/* ADMİN SAYFASI İÇİN EKLEDİKLERİM */
+.admin-wrapper {
+    height: calc(100% - 83px);
+    display: flex;
+    margin-top: 50px;
+}
+
+.admin-wrapper .left-sidebar {
+    flex: 2;
+    height: 100%;
+    background-color: #ff7d00;
+    position: fixed; /* Sabit konumda olmasını sağlar */
+    top: 0; /* Sidebar'ın üst kısmının ekranın üst kısmına yapışmasını sağlar */
+    left: 0; /* Sidebar'ın sol kısmının ekranın sol kısmına yapışmasını sağlar */
+    width: 22%;
+}
+
+.border-un {
+    background: rgb(99 189 165);
+    margin: 10px;
+    padding: 2px;
+    border-radius: 20px;
+    border: 5px solid black;
+}
+
+.admin-wrapper .left-sidebar .username {
+    text-align: center;
+    color: rgb(255 127 127);
+    background: rgb(217 255 233);
+    border-radius: 20px;
+    margin: 12px;
+    padding: 20px;
+    font-family: PressStart2P-Regular;
+    text-shadow: 2px 2px 4px rgb(117 156 143);
+    box-shadow: 5px 5px rgb(97 97 97);
+    line-height: 1.2;
+}
+
+.admin-wrapper .left-sidebar ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    color: red;
+}
+
+.admin-wrapper .left-sidebar ul li a {
+    padding: 18px;
+    display: block;
+    text-decoration: none;
+    color: rgb(217 255 233);
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    transition-duration: 0.3s;
+    background: black;
+    border-radius: 20px;
+    margin: 10px; 
+}
+
+.admin-wrapper .left-sidebar ul li a:hover {
+    background: white;
+    border-radius: 20px;
+    color: rgb(99 189 165);
+}
+
+.admin-wrapper .admin-content {
+    flex: 8;
+    height: 100%;
+    padding: 40px 100px 100px;
+    overflow-y: scroll;
+    width: 60%;
+    margin-left: 400px;
+}
+
+.admin-content .button-group {
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+
+.content {
+    background: #63bda5;
+    border: 4px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px rgb(97 97 97);
+    padding: 20px;
+}
+
+.button-group .btn {
+    padding: 10px;
+    transition: 0.3s;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    border: 4px solid black;
+    border-radius: 10px;
+    background: rgb(99 189 165);
+}
+
+.button-group .btn:hover {
+    background: rgb(217 255 233);
+    border-radius: 10px;
+    color: black;
+    box-shadow: 5px 5px rgb(97 97 97);
+} 
+
+.admin-content .page-title {
+    text-align: center;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 4px;
+    width: 40%;
+    background: #d9ffe9;
+    box-shadow: 5px 5px rgb(97 97 97);
+    border-radius: 10px;
+}
+.table {
+    padding: 15px;
+    background: #d9ffe9;
+    box-shadow: 5px 5px rgb(97 97 97);
+    border-radius: 10px;
+    margin: 4px;
+}
+
+
+table {
+    border-collapse: collapse;
+    font-size: 1.1rem;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 2px solid rgb(132 0 255);
+}
+
+.edit {
+    color: green;
+    padding: 6px;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.delete {
+    color: red;
+    padding: 6px;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.publish {
+    color: blue;
+    padding: 6px;
+    transition: 0.2s;
+    text-decoration: none;
+}
+
+.edit:hover,
+.delete:hover,
+.publish:hover {
+    text-decoration: underline;
+    background: rgb(149 210 255);
+    border-radius: 4px;
+}
